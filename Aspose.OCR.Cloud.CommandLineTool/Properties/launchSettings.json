@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    },
+    "RunConfiguration": {
+      "commandName": "Project",
+      "commandLineArgs": "config -clientid ocr.cloud -secret 84aa14b050b4237a636576fe5ad92dd6"
+    },
+    "RunRecognizeImageSimple": {
+      "commandName": "Project",
+      "commandLineArgs": "recognizeimage -f C:\\Users\\User\\source\\repos\\cloud.sdks\\samples\\latin.png -o results\\result.txt"
+    },
+    "RunRecognizeImageParametrized": {
+      "commandName": "Project",
+      "commandLineArgs": "recognizeimage -f C:\\Users\\User\\source\\repos\\cloud.sdks\\samples\\hindi.PNG -o results\\result -lang Hindi -makeBinarization false -makeSkewCorrect 0 -makeUpsampling TRUE -dsrMode NoDsrNoFilter -resultType Pdf"
+    },
+    "RunRecognizeImageParametrized2": {
+      "commandName": "Project",
+      "commandLineArgs": "recognizeimage -f C:\\Users\\User\\source\\repos\\cloud.sdks\\samples\\binarization.jpeg -o results\\result -lang Russian -makeBinarization -makeSkewCorrect 0 -makeUpsampling FALSE -dsrMode DsrPlusDetector -resultType Text"
+    }
+  }
+}

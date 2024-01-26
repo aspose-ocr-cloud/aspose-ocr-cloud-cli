@@ -1,0 +1,1 @@
+dotnet publish -r win-x64 -c Release --no-restore /p:DebugType=None -f net6.0 /p:PublishSingleFile=true -o Aspose.OCR.Cloud.CommandLineTool\bin\Release\publish\win-x86
