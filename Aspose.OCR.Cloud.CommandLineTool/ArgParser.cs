@@ -97,7 +97,7 @@ namespace Aspose.OCR.Cloud.CommandLineTool
                 "-makeBinarization\tImage preprocessing option, true by default. Accepted values: true, false\n" +
                 "-makeSkewCorrection\tImage preprocessing option, false by default. Accepted values: true, false\n" +
                 "-makeUpsampling\tImage preprocessing option, false by default. Accepted values: true, false\n" +
-                "-dsrMode\t\t\tDocument structure recognition mode from the following list (DsrPlusDetector as default): Regions, DsrNoFilter, DsrAndFilter, NoDsrNoFilter, TextDetector, DsrPlusDetector, PolygonalTextDetector" +
+                "-dsrMode\t\t\tDocument structure recognition mode from the following list (DsrPlusDetector as default): DsrNoFilter, DsrAndFilter, NoDsrNoFilter, TextDetector, DsrPlusDetector, PolygonalTextDetector" +
                 "-resultType\t\tOutput data type from the following list (Text as default): Text, Pdf, Hocr";
 
             return action switch
